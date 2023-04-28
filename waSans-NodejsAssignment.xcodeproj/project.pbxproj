@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E84E1FBE112BCA358E1F8A /* Pods_waSans_NodejsAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB812A3D9853C3B311CA81 /* Pods_waSans_NodejsAssignmentTests.framework */; };
+		3F55A1BC297071CB004F356B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1BB297071CB004F356B /* AppDelegate.swift */; };
+		3F55A1BE297071CB004F356B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1BD297071CB004F356B /* SceneDelegate.swift */; };
+		3F55A1C0297071CB004F356B /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1BF297071CB004F356B /* MainScreenView.swift */; };
+		3F55A1C3297071CB004F356B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F55A1C1297071CB004F356B /* Main.storyboard */; };
+		3F55A1C5297071CE004F356B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F55A1C4297071CE004F356B /* Assets.xcassets */; };
+		3F55A1C8297071CE004F356B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F55A1C6297071CE004F356B /* LaunchScreen.storyboard */; };
+		3F55A1D3297071CE004F356B /* waSans_NodejsAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1D2297071CE004F356B /* waSans_NodejsAssignmentTests.swift */; };
+		3F55A1DD297071CE004F356B /* waSans_NodejsAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1DC297071CE004F356B /* waSans_NodejsAssignmentUITests.swift */; };
+		3F55A1DF297071CE004F356B /* waSans_NodejsAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1DE297071CE004F356B /* waSans_NodejsAssignmentUITestsLaunchTests.swift */; };
+		3F55A1EC297075BA004F356B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1EB297075BA004F356B /* UIColorExtension.swift */; };
+		3F55A1EE29718683004F356B /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1ED29718683004F356B /* BoardCell.swift */; };
+		3F55A1F6297189DB004F356B /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1F5297189DB004F356B /* BoardModel.swift */; };
+		3F55A1F82971B19C004F356B /* BulletinBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1F72971B19C004F356B /* BulletinBoardView.swift */; };
+		3F55A1FB2971B78D004F356B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1FA2971B78D004F356B /* PostModel.swift */; };
+		3F55A1FD2971BD07004F356B /* BoardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1FC2971BD07004F356B /* BoardService.swift */; };
+		3F55A1FF29742FFE004F356B /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A1FE29742FFE004F356B /* APIConstant.swift */; };
+		3F55A201297445DF004F356B /* BoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55A200297445DF004F356B /* BoardTableViewCell.swift */; };
+		3F9C349C2979C8A9004C5A90 /* PostTagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C349B2979C8A9004C5A90 /* PostTagCollectionViewCell.swift */; };
+		3F9C349E2979CD62004C5A90 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C349D2979CD62004C5A90 /* NewPostView.swift */; };
+		3F9C34A0297ACCE7004C5A90 /* PostTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C349F297ACCE7004C5A90 /* PostTypeCollectionViewCell.swift */; };
+		3F9C34A2297AE00C004C5A90 /* PostCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C34A1297AE00C004C5A90 /* PostCompleteView.swift */; };
+		3FDCBB30297859DB00E8C842 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCBB2F297859DB00E8C842 /* PostView.swift */; };
+		A95558B1317F988A7115E67D /* Pods_waSans_NodejsAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3825BED2A070968642AE65 /* Pods_waSans_NodejsAssignment.framework */; };
+		EEC456F4C243DD47D4FA7BD9 /* Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDE0D93B338D290CC39170E /* Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F55A1CF297071CE004F356B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F55A1B0297071CB004F356B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F55A1B7297071CB004F356B;
+			remoteInfo = "waSans-NodejsAssignment";
+		};
+		3F55A1D9297071CE004F356B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F55A1B0297071CB004F356B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F55A1B7297071CB004F356B;
+			remoteInfo = "waSans-NodejsAssignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0C09DE039D0106B8A18616 /* Pods-waSans-NodejsAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waSans-NodejsAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-waSans-NodejsAssignmentTests/Pods-waSans-NodejsAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		1853C822CD1D2B08DA3AD075 /* Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EDE0D93B338D290CC39170E /* Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F55A1B8297071CB004F356B /* waSans-NodejsAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waSans-NodejsAssignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F55A1BB297071CB004F356B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F55A1BD297071CB004F356B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F55A1BF297071CB004F356B /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		3F55A1C2297071CB004F356B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F55A1C4297071CE004F356B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F55A1C7297071CE004F356B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F55A1C9297071CE004F356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F55A1CE297071CE004F356B /* waSans-NodejsAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waSans-NodejsAssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F55A1D2297071CE004F356B /* waSans_NodejsAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waSans_NodejsAssignmentTests.swift; sourceTree = "<group>"; };
+		3F55A1D8297071CE004F356B /* waSans-NodejsAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waSans-NodejsAssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F55A1DC297071CE004F356B /* waSans_NodejsAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waSans_NodejsAssignmentUITests.swift; sourceTree = "<group>"; };
+		3F55A1DE297071CE004F356B /* waSans_NodejsAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waSans_NodejsAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F55A1EB297075BA004F356B /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3F55A1ED29718683004F356B /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		3F55A1F5297189DB004F356B /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		3F55A1F72971B19C004F356B /* BulletinBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinBoardView.swift; sourceTree = "<group>"; };
+		3F55A1FA2971B78D004F356B /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		3F55A1FC2971BD07004F356B /* BoardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardService.swift; sourceTree = "<group>"; };
+		3F55A1FE29742FFE004F356B /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		3F55A200297445DF004F356B /* BoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTableViewCell.swift; sourceTree = "<group>"; };
+		3F9C349B2979C8A9004C5A90 /* PostTagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTagCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F9C349D2979CD62004C5A90 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		3F9C349F297ACCE7004C5A90 /* PostTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F9C34A1297AE00C004C5A90 /* PostCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCompleteView.swift; sourceTree = "<group>"; };
+		3FDCBB2F297859DB00E8C842 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		55F2BDB6C56E0664B5D692D3 /* Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F3825BED2A070968642AE65 /* Pods_waSans_NodejsAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waSans_NodejsAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BDE97C9D40D0778001A3B0 /* Pods-waSans-NodejsAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waSans-NodejsAssignment.debug.xcconfig"; path = "Target Support Files/Pods-waSans-NodejsAssignment/Pods-waSans-NodejsAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		8FEB812A3D9853C3B311CA81 /* Pods_waSans_NodejsAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waSans_NodejsAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E9BF8B40C670F011063E13 /* Pods-waSans-NodejsAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waSans-NodejsAssignment.release.xcconfig"; path = "Target Support Files/Pods-waSans-NodejsAssignment/Pods-waSans-NodejsAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		F2A2A3675E984505BE8755A2 /* Pods-waSans-NodejsAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waSans-NodejsAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-waSans-NodejsAssignmentTests/Pods-waSans-NodejsAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F55A1B5297071CB004F356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95558B1317F988A7115E67D /* Pods_waSans_NodejsAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F55A1CB297071CE004F356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E84E1FBE112BCA358E1F8A /* Pods_waSans_NodejsAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F55A1D5297071CE004F356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC456F4C243DD47D4FA7BD9 /* Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F55A1AF297071CB004F356B = {
+			isa = PBXGroup;
+			children = (
+				3F55A1BA297071CB004F356B /* waSans-NodejsAssignment */,
+				3F55A1D1297071CE004F356B /* waSans-NodejsAssignmentTests */,
+				3F55A1DB297071CE004F356B /* waSans-NodejsAssignmentUITests */,
+				3F55A1B9297071CB004F356B /* Products */,
+				706ED5D3809DDD4BBF2DEA41 /* Pods */,
+				DCD63DFAFAE094B6D5BAC2EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F55A1B9297071CB004F356B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1B8297071CB004F356B /* waSans-NodejsAssignment.app */,
+				3F55A1CE297071CE004F356B /* waSans-NodejsAssignmentTests.xctest */,
+				3F55A1D8297071CE004F356B /* waSans-NodejsAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F55A1BA297071CB004F356B /* waSans-NodejsAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1F42971892D004F356B /* Service */,
+				3F55A1F129718902004F356B /* MainScreen */,
+				3F9C34A7297AED95004C5A90 /* ViewPost */,
+				3F9C34A3297AED34004C5A90 /* UploadPost */,
+				3F55A1F0297188F6004F356B /* Common */,
+				3F55A1EF297188EC004F356B /* Lifecycle */,
+				3F55A1C1297071CB004F356B /* Main.storyboard */,
+				3F55A1C4297071CE004F356B /* Assets.xcassets */,
+				3F55A1C6297071CE004F356B /* LaunchScreen.storyboard */,
+				3F55A1C9297071CE004F356B /* Info.plist */,
+			);
+			path = "waSans-NodejsAssignment";
+			sourceTree = "<group>";
+		};
+		3F55A1D1297071CE004F356B /* waSans-NodejsAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1D2297071CE004F356B /* waSans_NodejsAssignmentTests.swift */,
+			);
+			path = "waSans-NodejsAssignmentTests";
+			sourceTree = "<group>";
+		};
+		3F55A1DB297071CE004F356B /* waSans-NodejsAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1DC297071CE004F356B /* waSans_NodejsAssignmentUITests.swift */,
+				3F55A1DE297071CE004F356B /* waSans_NodejsAssignmentUITestsLaunchTests.swift */,
+			);
+			path = "waSans-NodejsAssignmentUITests";
+			sourceTree = "<group>";
+		};
+		3F55A1EF297188EC004F356B /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1BB297071CB004F356B /* AppDelegate.swift */,
+				3F55A1BD297071CB004F356B /* SceneDelegate.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		3F55A1F0297188F6004F356B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1EB297075BA004F356B /* UIColorExtension.swift */,
+				3F55A1FE29742FFE004F356B /* APIConstant.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3F55A1F129718902004F356B /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1F92971B77F004F356B /* Model */,
+				3F55A1F22971891C004F356B /* View */,
+				3F55A1F329718921004F356B /* Cell */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		3F55A1F22971891C004F356B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1BF297071CB004F356B /* MainScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F55A1F329718921004F356B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1ED29718683004F356B /* BoardCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3F55A1F42971892D004F356B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1FC2971BD07004F356B /* BoardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3F55A1F92971B77F004F356B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1F5297189DB004F356B /* BoardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F9C34A3297AED34004C5A90 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C34A6297AED5A004C5A90 /* Model */,
+				3F9C34A5297AED51004C5A90 /* View */,
+				3F9C34A4297AED41004C5A90 /* Cell */,
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		3F9C34A4297AED41004C5A90 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C349F297ACCE7004C5A90 /* PostTypeCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3F9C34A5297AED51004C5A90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C349D2979CD62004C5A90 /* NewPostView.swift */,
+				3F9C34A1297AE00C004C5A90 /* PostCompleteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F9C34A6297AED5A004C5A90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F9C34A7297AED95004C5A90 /* ViewPost */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C34A8297AEDAA004C5A90 /* Model */,
+				3F9C34A9297AEDB2004C5A90 /* View */,
+				3F9C34AA297AEDB6004C5A90 /* Cell */,
+			);
+			path = ViewPost;
+			sourceTree = "<group>";
+		};
+		3F9C34A8297AEDAA004C5A90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A1FA2971B78D004F356B /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F9C34A9297AEDB2004C5A90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCBB2F297859DB00E8C842 /* PostView.swift */,
+				3F55A1F72971B19C004F356B /* BulletinBoardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F9C34AA297AEDB6004C5A90 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F55A200297445DF004F356B /* BoardTableViewCell.swift */,
+				3F9C349B2979C8A9004C5A90 /* PostTagCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		706ED5D3809DDD4BBF2DEA41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85BDE97C9D40D0778001A3B0 /* Pods-waSans-NodejsAssignment.debug.xcconfig */,
+				A3E9BF8B40C670F011063E13 /* Pods-waSans-NodejsAssignment.release.xcconfig */,
+				1853C822CD1D2B08DA3AD075 /* Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.debug.xcconfig */,
+				55F2BDB6C56E0664B5D692D3 /* Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.release.xcconfig */,
+				F2A2A3675E984505BE8755A2 /* Pods-waSans-NodejsAssignmentTests.debug.xcconfig */,
+				0A0C09DE039D0106B8A18616 /* Pods-waSans-NodejsAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCD63DFAFAE094B6D5BAC2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F3825BED2A070968642AE65 /* Pods_waSans_NodejsAssignment.framework */,
+				3EDE0D93B338D290CC39170E /* Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests.framework */,
+				8FEB812A3D9853C3B311CA81 /* Pods_waSans_NodejsAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F55A1B7297071CB004F356B /* waSans-NodejsAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F55A1E2297071CE004F356B /* Build configuration list for PBXNativeTarget "waSans-NodejsAssignment" */;
+			buildPhases = (
+				5BC83DD22CC24EBF31799049 /* [CP] Check Pods Manifest.lock */,
+				3F55A1B4297071CB004F356B /* Sources */,
+				3F55A1B5297071CB004F356B /* Frameworks */,
+				3F55A1B6297071CB004F356B /* Resources */,
+				08520A9A3BB7C920695E8E3C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "waSans-NodejsAssignment";
+			productName = "waSans-NodejsAssignment";
+			productReference = 3F55A1B8297071CB004F356B /* waSans-NodejsAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F55A1CD297071CE004F356B /* waSans-NodejsAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F55A1E5297071CE004F356B /* Build configuration list for PBXNativeTarget "waSans-NodejsAssignmentTests" */;
+			buildPhases = (
+				5F3296E6DF1BACD204A7B0F5 /* [CP] Check Pods Manifest.lock */,
+				3F55A1CA297071CE004F356B /* Sources */,
+				3F55A1CB297071CE004F356B /* Frameworks */,
+				3F55A1CC297071CE004F356B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F55A1D0297071CE004F356B /* PBXTargetDependency */,
+			);
+			name = "waSans-NodejsAssignmentTests";
+			productName = "waSans-NodejsAssignmentTests";
+			productReference = 3F55A1CE297071CE004F356B /* waSans-NodejsAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F55A1D7297071CE004F356B /* waSans-NodejsAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F55A1E8297071CE004F356B /* Build configuration list for PBXNativeTarget "waSans-NodejsAssignmentUITests" */;
+			buildPhases = (
+				0C2F7213C0E5E282AE879835 /* [CP] Check Pods Manifest.lock */,
+				3F55A1D4297071CE004F356B /* Sources */,
+				3F55A1D5297071CE004F356B /* Frameworks */,
+				3F55A1D6297071CE004F356B /* Resources */,
+				8B00ECC6E098851E0326C638 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F55A1DA297071CE004F356B /* PBXTargetDependency */,
+			);
+			name = "waSans-NodejsAssignmentUITests";
+			productName = "waSans-NodejsAssignmentUITests";
+			productReference = 3F55A1D8297071CE004F356B /* waSans-NodejsAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F55A1B0297071CB004F356B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3F55A1B7297071CB004F356B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3F55A1CD297071CE004F356B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F55A1B7297071CB004F356B;
+					};
+					3F55A1D7297071CE004F356B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F55A1B7297071CB004F356B;
+					};
+				};
+			};
+			buildConfigurationList = 3F55A1B3297071CB004F356B /* Build configuration list for PBXProject "waSans-NodejsAssignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F55A1AF297071CB004F356B;
+			productRefGroup = 3F55A1B9297071CB004F356B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F55A1B7297071CB004F356B /* waSans-NodejsAssignment */,
+				3F55A1CD297071CE004F356B /* waSans-NodejsAssignmentTests */,
+				3F55A1D7297071CE004F356B /* waSans-NodejsAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F55A1B6297071CB004F356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F55A1C8297071CE004F356B /* LaunchScreen.storyboard in Resources */,
+				3F55A1C5297071CE004F356B /* Assets.xcassets in Resources */,
+				3F55A1C3297071CB004F356B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F55A1CC297071CE004F356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F55A1D6297071CE004F356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08520A9A3BB7C920695E8E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waSans-NodejsAssignment/Pods-waSans-NodejsAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waSans-NodejsAssignment/Pods-waSans-NodejsAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-waSans-NodejsAssignment/Pods-waSans-NodejsAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2F7213C0E5E282AE879835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC83DD22CC24EBF31799049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waSans-NodejsAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3296E6DF1BACD204A7B0F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waSans-NodejsAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B00ECC6E098851E0326C638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests/Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F55A1B4297071CB004F356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCBB30297859DB00E8C842 /* PostView.swift in Sources */,
+				3F55A201297445DF004F356B /* BoardTableViewCell.swift in Sources */,
+				3F9C34A2297AE00C004C5A90 /* PostCompleteView.swift in Sources */,
+				3F55A1EE29718683004F356B /* BoardCell.swift in Sources */,
+				3F9C349E2979CD62004C5A90 /* NewPostView.swift in Sources */,
+				3F55A1FD2971BD07004F356B /* BoardService.swift in Sources */,
+				3F9C34A0297ACCE7004C5A90 /* PostTypeCollectionViewCell.swift in Sources */,
+				3F55A1C0297071CB004F356B /* MainScreenView.swift in Sources */,
+				3F55A1EC297075BA004F356B /* UIColorExtension.swift in Sources */,
+				3F55A1BC297071CB004F356B /* AppDelegate.swift in Sources */,
+				3F55A1F82971B19C004F356B /* BulletinBoardView.swift in Sources */,
+				3F55A1F6297189DB004F356B /* BoardModel.swift in Sources */,
+				3F55A1FB2971B78D004F356B /* PostModel.swift in Sources */,
+				3F55A1FF29742FFE004F356B /* APIConstant.swift in Sources */,
+				3F9C349C2979C8A9004C5A90 /* PostTagCollectionViewCell.swift in Sources */,
+				3F55A1BE297071CB004F356B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F55A1CA297071CE004F356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F55A1D3297071CE004F356B /* waSans_NodejsAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F55A1D4297071CE004F356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F55A1DD297071CE004F356B /* waSans_NodejsAssignmentUITests.swift in Sources */,
+				3F55A1DF297071CE004F356B /* waSans_NodejsAssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F55A1D0297071CE004F356B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F55A1B7297071CB004F356B /* waSans-NodejsAssignment */;
+			targetProxy = 3F55A1CF297071CE004F356B /* PBXContainerItemProxy */;
+		};
+		3F55A1DA297071CE004F356B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F55A1B7297071CB004F356B /* waSans-NodejsAssignment */;
+			targetProxy = 3F55A1D9297071CE004F356B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F55A1C1297071CB004F356B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F55A1C2297071CB004F356B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F55A1C6297071CE004F356B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F55A1C7297071CE004F356B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F55A1E0297071CE004F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F55A1E1297071CE004F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F55A1E3297071CE004F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BDE97C9D40D0778001A3B0 /* Pods-waSans-NodejsAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "waSans-NodejsAssignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.waSans-NodejsAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F55A1E4297071CE004F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E9BF8B40C670F011063E13 /* Pods-waSans-NodejsAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "waSans-NodejsAssignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.waSans-NodejsAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F55A1E6297071CE004F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A2A3675E984505BE8755A2 /* Pods-waSans-NodejsAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.waSans-NodejsAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waSans-NodejsAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/waSans-NodejsAssignment";
+			};
+			name = Debug;
+		};
+		3F55A1E7297071CE004F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0C09DE039D0106B8A18616 /* Pods-waSans-NodejsAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.waSans-NodejsAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waSans-NodejsAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/waSans-NodejsAssignment";
+			};
+			name = Release;
+		};
+		3F55A1E9297071CE004F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1853C822CD1D2B08DA3AD075 /* Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.waSans-NodejsAssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "waSans-NodejsAssignment";
+			};
+			name = Debug;
+		};
+		3F55A1EA297071CE004F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F2BDB6C56E0664B5D692D3 /* Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.waSans-NodejsAssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "waSans-NodejsAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F55A1B3297071CB004F356B /* Build configuration list for PBXProject "waSans-NodejsAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F55A1E0297071CE004F356B /* Debug */,
+				3F55A1E1297071CE004F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F55A1E2297071CE004F356B /* Build configuration list for PBXNativeTarget "waSans-NodejsAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F55A1E3297071CE004F356B /* Debug */,
+				3F55A1E4297071CE004F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F55A1E5297071CE004F356B /* Build configuration list for PBXNativeTarget "waSans-NodejsAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F55A1E6297071CE004F356B /* Debug */,
+				3F55A1E7297071CE004F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F55A1E8297071CE004F356B /* Build configuration list for PBXNativeTarget "waSans-NodejsAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F55A1E9297071CE004F356B /* Debug */,
+				3F55A1EA297071CE004F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F55A1B0297071CB004F356B /* Project object */;
+}

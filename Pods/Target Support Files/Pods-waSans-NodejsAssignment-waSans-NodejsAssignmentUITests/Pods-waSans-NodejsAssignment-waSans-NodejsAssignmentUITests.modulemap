@@ -1,0 +1,6 @@
+framework module Pods_waSans_NodejsAssignment_waSans_NodejsAssignmentUITests {
+  umbrella header "Pods-waSans-NodejsAssignment-waSans-NodejsAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
